@@ -1,0 +1,19 @@
+name: visimil
+summary: Keras/Elasticsearch based visual similarity search service
+maintainer:  James Beedy <jamesbeedy@gmail.com>
+description: Keras/Elasticsearch based visual similarity search service
+tags:
+  - visimil
+  - machine-learning
+  - deep-learning
+subordinate: false
+series:
+  - xenial
+provides:
+  http:
+    interface: http
+resources:
+  visimil:
+    type: file
+    filename: visimil.snap
+    description: Visimil snap

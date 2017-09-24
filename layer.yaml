@@ -1,0 +1,16 @@
+includes:
+  - layer:basic
+  - layer:snap
+  - layer:nginx
+  - interface:elasticsearch
+  - interface:http
+options:
+  snap:
+    visimil:
+      channel: stable
+      devmode: true
+      jailmode: false
+      dangerous: false
+      classic: false
+      revision: null
+repo: "https://github.com/jamesbeedy/layer-visimil"

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -e
+
+exec /snap/bin/visimil.es-init

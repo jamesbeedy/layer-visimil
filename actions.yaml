@@ -1,0 +1,2 @@
+es-init:
+  description: Initialize elasticsearch indicies
