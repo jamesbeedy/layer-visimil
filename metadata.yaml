@@ -12,6 +12,9 @@ series:
 provides:
   http:
     interface: http
+requires:
+  elasticsearch:
+    interface: elasticsearch
 resources:
   visimil:
     type: file
